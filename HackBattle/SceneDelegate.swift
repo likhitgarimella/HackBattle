@@ -3,6 +3,7 @@
 //  HackBattle
 //
 //  Created by Likhit Garimella on 29/10/20.
+//  Copyright © 2020 Likhit Garimella. All rights reserved.
 //
 
 import UIKit
