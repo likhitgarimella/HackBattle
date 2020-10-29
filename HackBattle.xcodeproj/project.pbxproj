@@ -58,10 +58,10 @@
 			children = (
 				02697BE1254A9A430099A960 /* AppDelegate.swift */,
 				02697BE3254A9A430099A960 /* SceneDelegate.swift */,
-				02697BE5254A9A430099A960 /* ViewController.swift */,
-				02697BE7254A9A430099A960 /* Main.storyboard */,
 				02697BEA254A9A440099A960 /* Assets.xcassets */,
 				02697BEC254A9A440099A960 /* LaunchScreen.storyboard */,
+				02697BE7254A9A430099A960 /* Main.storyboard */,
+				02697BE5254A9A430099A960 /* ViewController.swift */,
 				02697BEF254A9A440099A960 /* Info.plist */,
 			);
 			path = HackBattle;
