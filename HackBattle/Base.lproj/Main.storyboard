@@ -133,10 +133,10 @@
             </objects>
             <point key="canvasLocation" x="741" y="-1281"/>
         </scene>
-        <!--View Controller-->
+        <!--Schedule View Controller-->
         <scene sceneID="JiP-Qv-QD7">
             <objects>
-                <viewController id="VWD-ok-BTk" sceneMemberID="viewController">
+                <viewController id="VWD-ok-BTk" customClass="ScheduleViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XpH-n4-ugi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,10 +149,10 @@
             </objects>
             <point key="canvasLocation" x="2265" y="-790"/>
         </scene>
-        <!--View Controller-->
+        <!--Faqs View Controller-->
         <scene sceneID="6D9-cS-Y2N">
             <objects>
-                <viewController id="6gm-Wi-pZk" sceneMemberID="viewController">
+                <viewController id="6gm-Wi-pZk" customClass="FaqsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kps-TW-LKR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,10 +165,10 @@
             </objects>
             <point key="canvasLocation" x="2265" y="86"/>
         </scene>
-        <!--View Controller-->
+        <!--Sponsors View Controller-->
         <scene sceneID="lq6-Tg-Vc5">
             <objects>
-                <viewController id="dNf-oP-PdX" sceneMemberID="viewController">
+                <viewController id="dNf-oP-PdX" customClass="SponsorsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Qm-wo-F2v">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="2264" y="955"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="lTr-8a-ThL">
             <objects>
-                <viewController id="0Sq-VN-gDu" sceneMemberID="viewController">
+                <viewController id="0Sq-VN-gDu" customClass="SettingsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LRH-2x-XvJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
