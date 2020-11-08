@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // View controller-based status bar appearance -> NO
         
         UITabBar.appearance().barTintColor = .white
+        /// Dark blue color theme
         UITabBar.appearance().tintColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0)
         
         /// Increase Launch Screen Time
@@ -51,4 +52,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
     
-}   // #55
+}   // #56

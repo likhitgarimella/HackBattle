@@ -111,6 +111,14 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="one" id="hbc-Cj-Jox"/>
+                    <connections>
+                        <outlet property="prizes" destination="xEV-km-doT" id="a39-g7-XM3"/>
+                        <outlet property="prizesView" destination="AtD-Id-mV8" id="LW1-Px-lRA"/>
+                        <outlet property="register" destination="vAF-Fw-c3x" id="OgY-tv-vL4"/>
+                        <outlet property="registerView" destination="20G-Ba-3nS" id="7O2-qc-rKa"/>
+                        <outlet property="tracks" destination="Fw5-kQ-ETg" id="maQ-0m-fUc"/>
+                        <outlet property="tracksView" destination="gC3-B1-cc2" id="ZG1-RA-IYg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLj-RO-OtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
