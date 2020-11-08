@@ -197,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="741" y="1420"/>
         </scene>
-        <!--View Controller-->
+        <!--Prizes View Controller-->
         <scene sceneID="GeS-dh-rBG">
             <objects>
-                <viewController id="Re3-nK-11X" sceneMemberID="viewController">
+                <viewController id="Re3-nK-11X" customClass="PrizesViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dZf-9p-Yp6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,10 +211,10 @@
             </objects>
             <point key="canvasLocation" x="1601" y="-2073"/>
         </scene>
-        <!--View Controller-->
+        <!--Tracks View Controller-->
         <scene sceneID="nDo-oX-MUA">
             <objects>
-                <viewController id="3qh-4m-EvO" sceneMemberID="viewController">
+                <viewController id="3qh-4m-EvO" customClass="TracksViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="127-r6-gbL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,10 +225,10 @@
             </objects>
             <point key="canvasLocation" x="741" y="-2074"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="ZoX-Pt-net">
             <objects>
-                <viewController id="iiJ-xK-L7t" sceneMemberID="viewController">
+                <viewController id="iiJ-xK-L7t" customClass="RegisterViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JI6-kF-Pi6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
