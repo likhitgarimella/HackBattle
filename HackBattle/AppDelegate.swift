@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // View controller-based status bar appearance -> NO
         
         UITabBar.appearance().barTintColor = .white
-        UITabBar.appearance().tintColor = .systemBlue
+        UITabBar.appearance().tintColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0)
         
         /// Increase Launch Screen Time
         Thread.sleep(forTimeInterval: 1)

@@ -40,7 +40,7 @@
                         <viewLayoutGuide key="safeArea" id="UJz-Aa-7JG"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="hbc-Cj-Jox"/>
+                    <tabBarItem key="tabBarItem" title="" image="one" id="hbc-Cj-Jox"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLj-RO-OtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,7 +56,7 @@
                         <viewLayoutGuide key="safeArea" id="IpB-Ol-lU2"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="ref-wD-t8e"/>
+                    <tabBarItem key="tabBarItem" title="" image="two" id="ref-wD-t8e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncx-vy-fvG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,7 +72,7 @@
                         <viewLayoutGuide key="safeArea" id="0xE-mW-UOp"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="KtP-qj-72y"/>
+                    <tabBarItem key="tabBarItem" title="" image="three" id="KtP-qj-72y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfq-cD-ybX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,7 +88,7 @@
                         <viewLayoutGuide key="safeArea" id="5Sc-fS-qzZ"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="ndw-x3-SLs"/>
+                    <tabBarItem key="tabBarItem" title="" image="four" id="ndw-x3-SLs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geO-6c-n4b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,7 +104,7 @@
                         <viewLayoutGuide key="safeArea" id="dqi-cN-923"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="ser-S9-Q1L"/>
+                    <tabBarItem key="tabBarItem" title="" image="five" id="ser-S9-Q1L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1Q-vg-vSP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,6 +112,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="five" width="23.666666030883789" height="24"/>
+        <image name="four" width="24" height="24"/>
+        <image name="one" width="25" height="24"/>
+        <image name="three" width="28" height="28"/>
+        <image name="two" width="23.666666030883789" height="24"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
