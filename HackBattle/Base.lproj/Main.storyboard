@@ -220,12 +220,21 @@
                                                 <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rh-pA-2Wm">
+                                                <rect key="frame" x="20" y="68" width="374" height="50.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rRV-Ki-ILQ" secondAttribute="trailing" constant="20" symbolic="YES" id="1di-hR-uT4"/>
+                                            <constraint firstAttribute="trailing" secondItem="1rh-pA-2Wm" secondAttribute="trailing" constant="20" id="H0y-pb-YJn"/>
+                                            <constraint firstItem="1rh-pA-2Wm" firstAttribute="leading" secondItem="jQ9-NP-FG7" secondAttribute="leading" constant="20" id="TUI-Xw-LaC"/>
                                             <constraint firstItem="rRV-Ki-ILQ" firstAttribute="leading" secondItem="jQ9-NP-FG7" secondAttribute="leading" constant="20" id="dXa-5W-7Xn"/>
                                             <constraint firstItem="rRV-Ki-ILQ" firstAttribute="top" secondItem="jQ9-NP-FG7" secondAttribute="top" constant="4" id="izY-f2-lnj"/>
+                                            <constraint firstItem="1rh-pA-2Wm" firstAttribute="top" secondItem="rRV-Ki-ILQ" secondAttribute="bottom" constant="20" id="j2z-jF-xfm"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -275,11 +284,20 @@
                                                 <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBq-x9-a25">
+                                                <rect key="frame" x="20" y="68" width="374" height="50.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="GBq-x9-a25" secondAttribute="trailing" constant="20" id="GJn-9G-jbd"/>
                                             <constraint firstItem="0N1-t3-gIb" firstAttribute="leading" secondItem="GGg-uw-GlZ" secondAttribute="leading" constant="20" id="XbM-Wa-btz"/>
                                             <constraint firstItem="0N1-t3-gIb" firstAttribute="top" secondItem="GGg-uw-GlZ" secondAttribute="top" constant="4" id="XfS-Xc-CAW"/>
+                                            <constraint firstItem="GBq-x9-a25" firstAttribute="top" secondItem="0N1-t3-gIb" secondAttribute="bottom" constant="20" id="dUB-19-AaZ"/>
+                                            <constraint firstItem="GBq-x9-a25" firstAttribute="leading" secondItem="GGg-uw-GlZ" secondAttribute="leading" constant="20" id="tNm-bi-BU7"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0N1-t3-gIb" secondAttribute="trailing" constant="20" symbolic="YES" id="vfU-bd-Yfo"/>
                                         </constraints>
                                     </view>
