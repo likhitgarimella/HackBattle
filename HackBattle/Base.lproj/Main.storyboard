@@ -9,6 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
         <array key="Lato-Regular.ttf">
             <string>Lato-Regular</string>
         </array>
@@ -202,10 +205,12 @@
             <objects>
                 <viewController id="Re3-nK-11X" customClass="PrizesViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dZf-9p-Yp6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="w5t-4y-m5b"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
+                    <size key="freeformSize" width="414" height="736"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oek-1V-d0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -216,24 +221,67 @@
             <objects>
                 <viewController id="3qh-4m-EvO" customClass="TracksViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="127-r6-gbL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqS-JS-K2l">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGg-uw-GlZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tracks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0N1-t3-gIb">
+                                                <rect key="frame" x="20" y="4" width="105" height="44"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
+                                                <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="0N1-t3-gIb" firstAttribute="leading" secondItem="GGg-uw-GlZ" secondAttribute="leading" constant="20" id="XbM-Wa-btz"/>
+                                            <constraint firstItem="0N1-t3-gIb" firstAttribute="top" secondItem="GGg-uw-GlZ" secondAttribute="top" constant="4" id="XfS-Xc-CAW"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0N1-t3-gIb" secondAttribute="trailing" constant="20" symbolic="YES" id="vfU-bd-Yfo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="GGg-uw-GlZ" secondAttribute="bottom" id="RY7-Cw-W1I"/>
+                                    <constraint firstItem="GGg-uw-GlZ" firstAttribute="height" secondItem="cqS-JS-K2l" secondAttribute="height" priority="250" id="WWb-jb-HrM"/>
+                                    <constraint firstItem="GGg-uw-GlZ" firstAttribute="width" secondItem="cqS-JS-K2l" secondAttribute="width" priority="750" id="llv-84-Hiu"/>
+                                    <constraint firstItem="GGg-uw-GlZ" firstAttribute="top" secondItem="cqS-JS-K2l" secondAttribute="top" id="o7g-UB-vR7"/>
+                                    <constraint firstItem="GGg-uw-GlZ" firstAttribute="leading" secondItem="cqS-JS-K2l" secondAttribute="leading" id="qrk-WF-eda"/>
+                                    <constraint firstAttribute="trailing" secondItem="GGg-uw-GlZ" secondAttribute="trailing" id="sNV-9s-FgN"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vom-HF-xhi"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cqS-JS-K2l" firstAttribute="bottom" secondItem="vom-HF-xhi" secondAttribute="bottom" id="5FL-gK-9ks"/>
+                            <constraint firstItem="cqS-JS-K2l" firstAttribute="leading" secondItem="vom-HF-xhi" secondAttribute="leading" id="5Wg-Yp-KMp"/>
+                            <constraint firstItem="cqS-JS-K2l" firstAttribute="top" secondItem="vom-HF-xhi" secondAttribute="top" id="cTs-n3-E8I"/>
+                            <constraint firstItem="cqS-JS-K2l" firstAttribute="trailing" secondItem="vom-HF-xhi" secondAttribute="trailing" id="lic-8n-IdP"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="414" height="736"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AfM-gn-zIT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="741" y="-2074"/>
+            <point key="canvasLocation" x="740.57971014492762" y="-2074.7282608695655"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="ZoX-Pt-net">
             <objects>
                 <viewController id="iiJ-xK-L7t" customClass="RegisterViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JI6-kF-Pi6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="613"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YRF-Nw-4tk"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
+                    <size key="freeformSize" width="414" height="736"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FK-3p-epk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -251,9 +299,6 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
