@@ -19,20 +19,28 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-1" translatesAutoresizingMaskIntoConstraints="NO" id="iki-3W-i3Q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwY-rc-beA">
+                                <rect key="frame" x="0.0" y="734" width="414" height="2"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SwY-rc-beA" secondAttribute="trailing" id="Hw4-VC-LZT"/>
                             <constraint firstItem="iki-3W-i3Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JSw-7e-zWJ"/>
+                            <constraint firstItem="SwY-rc-beA" firstAttribute="top" secondItem="iki-3W-i3Q" secondAttribute="bottom" constant="-2" id="Ui6-Yk-mLf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iki-3W-i3Q" secondAttribute="trailing" id="VKT-qY-DpB"/>
+                            <constraint firstItem="SwY-rc-beA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Vih-3w-HLp"/>
                             <constraint firstItem="iki-3W-i3Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hXP-WI-ukb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iki-3W-i3Q" secondAttribute="bottom" id="vUe-qA-ZtN"/>
+                            <constraint firstAttribute="bottom" secondItem="SwY-rc-beA" secondAttribute="bottom" id="zOp-XF-kVc"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>

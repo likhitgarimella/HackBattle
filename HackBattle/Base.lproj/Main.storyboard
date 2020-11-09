@@ -207,14 +207,53 @@
                     <view key="view" contentMode="scaleToFill" id="dZf-9p-Yp6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpb-zG-XDR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-NP-FG7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prizes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRV-Ki-ILQ">
+                                                <rect key="frame" x="20" y="4" width="99" height="44"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
+                                                <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rRV-Ki-ILQ" secondAttribute="trailing" constant="20" symbolic="YES" id="1di-hR-uT4"/>
+                                            <constraint firstItem="rRV-Ki-ILQ" firstAttribute="leading" secondItem="jQ9-NP-FG7" secondAttribute="leading" constant="20" id="dXa-5W-7Xn"/>
+                                            <constraint firstItem="rRV-Ki-ILQ" firstAttribute="top" secondItem="jQ9-NP-FG7" secondAttribute="top" constant="4" id="izY-f2-lnj"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="jQ9-NP-FG7" firstAttribute="top" secondItem="wpb-zG-XDR" secondAttribute="top" id="1hE-5S-N7t"/>
+                                    <constraint firstAttribute="trailing" secondItem="jQ9-NP-FG7" secondAttribute="trailing" id="6Aa-Lw-fhT"/>
+                                    <constraint firstItem="jQ9-NP-FG7" firstAttribute="width" secondItem="wpb-zG-XDR" secondAttribute="width" priority="750" id="Sfw-IL-DJK"/>
+                                    <constraint firstItem="jQ9-NP-FG7" firstAttribute="height" secondItem="wpb-zG-XDR" secondAttribute="height" priority="250" id="VMI-5D-cul"/>
+                                    <constraint firstAttribute="bottom" secondItem="jQ9-NP-FG7" secondAttribute="bottom" id="pTf-zx-R0r"/>
+                                    <constraint firstItem="jQ9-NP-FG7" firstAttribute="leading" secondItem="wpb-zG-XDR" secondAttribute="leading" id="ykZ-3h-Qnx"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="w5t-4y-m5b"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wpb-zG-XDR" firstAttribute="leading" secondItem="w5t-4y-m5b" secondAttribute="leading" id="3ki-Gq-1XL"/>
+                            <constraint firstItem="w5t-4y-m5b" firstAttribute="bottom" secondItem="wpb-zG-XDR" secondAttribute="bottom" id="4kC-jv-8fD"/>
+                            <constraint firstItem="w5t-4y-m5b" firstAttribute="trailing" secondItem="wpb-zG-XDR" secondAttribute="trailing" id="PYq-AY-g3m"/>
+                            <constraint firstItem="wpb-zG-XDR" firstAttribute="top" secondItem="w5t-4y-m5b" secondAttribute="top" id="fz5-aj-0bx"/>
+                        </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="736"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oek-1V-d0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1601" y="-2073"/>
+            <point key="canvasLocation" x="1600.0000000000002" y="-2073.0978260869565"/>
         </scene>
         <!--Tracks View Controller-->
         <scene sceneID="nDo-oX-MUA">
@@ -333,9 +372,6 @@
         <image name="one" width="25" height="24"/>
         <image name="three" width="28" height="28"/>
         <image name="two" width="23.666666030883789" height="24"/>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
