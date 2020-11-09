@@ -41,7 +41,7 @@
         <!--Home View Controller-->
         <scene sceneID="6kH-Xh-L8l">
             <objects>
-                <viewController id="qbo-SM-WIO" customClass="HomeViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qbo-SM-WIO" customClass="HomeViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mRt-p8-B8i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,7 +139,7 @@
         <!--Schedule View Controller-->
         <scene sceneID="JiP-Qv-QD7">
             <objects>
-                <viewController id="VWD-ok-BTk" customClass="ScheduleViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="VWD-ok-BTk" customClass="ScheduleViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XpH-n4-ugi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,7 +155,7 @@
         <!--Faqs View Controller-->
         <scene sceneID="6D9-cS-Y2N">
             <objects>
-                <viewController id="6gm-Wi-pZk" customClass="FaqsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="6gm-Wi-pZk" customClass="FaqsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kps-TW-LKR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,7 +171,7 @@
         <!--Sponsors View Controller-->
         <scene sceneID="lq6-Tg-Vc5">
             <objects>
-                <viewController id="dNf-oP-PdX" customClass="SponsorsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="dNf-oP-PdX" customClass="SponsorsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Qm-wo-F2v">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,7 +187,7 @@
         <!--Settings View Controller-->
         <scene sceneID="lTr-8a-ThL">
             <objects>
-                <viewController id="0Sq-VN-gDu" customClass="SettingsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="0Sq-VN-gDu" customClass="SettingsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LRH-2x-XvJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,7 +203,7 @@
         <!--Prizes View Controller-->
         <scene sceneID="GeS-dh-rBG">
             <objects>
-                <viewController id="Re3-nK-11X" customClass="PrizesViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Re3-nK-11X" customClass="PrizesViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dZf-9p-Yp6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,7 +219,7 @@
         <!--Tracks View Controller-->
         <scene sceneID="nDo-oX-MUA">
             <objects>
-                <viewController id="3qh-4m-EvO" customClass="TracksViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="3qh-4m-EvO" customClass="TracksViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="127-r6-gbL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -274,18 +274,57 @@
         <!--Register View Controller-->
         <scene sceneID="ZoX-Pt-net">
             <objects>
-                <viewController id="iiJ-xK-L7t" customClass="RegisterViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="iiJ-xK-L7t" customClass="RegisterViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JI6-kF-Pi6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gui-7v-JiB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvS-hH-ySk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stv-1b-PkA">
+                                                <rect key="frame" x="20" y="4" width="135" height="44"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
+                                                <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Stv-1b-PkA" secondAttribute="trailing" constant="20" symbolic="YES" id="3Sz-dN-8UP"/>
+                                            <constraint firstItem="Stv-1b-PkA" firstAttribute="top" secondItem="jvS-hH-ySk" secondAttribute="top" constant="4" id="DOF-iv-Kd1"/>
+                                            <constraint firstItem="Stv-1b-PkA" firstAttribute="leading" secondItem="jvS-hH-ySk" secondAttribute="leading" constant="20" id="WHy-9p-D6N"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="jvS-hH-ySk" firstAttribute="width" secondItem="gui-7v-JiB" secondAttribute="width" priority="750" id="Yrx-lx-ZKN"/>
+                                    <constraint firstItem="jvS-hH-ySk" firstAttribute="leading" secondItem="gui-7v-JiB" secondAttribute="leading" id="hlj-X7-wfS"/>
+                                    <constraint firstAttribute="bottom" secondItem="jvS-hH-ySk" secondAttribute="bottom" id="vnc-L8-QmO"/>
+                                    <constraint firstItem="jvS-hH-ySk" firstAttribute="height" secondItem="gui-7v-JiB" secondAttribute="height" priority="250" id="w5O-DR-cL6"/>
+                                    <constraint firstAttribute="trailing" secondItem="jvS-hH-ySk" secondAttribute="trailing" id="wwM-bs-LjO"/>
+                                    <constraint firstItem="jvS-hH-ySk" firstAttribute="top" secondItem="gui-7v-JiB" secondAttribute="top" id="yBC-V5-ImX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="YRF-Nw-4tk"/>
-                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gui-7v-JiB" firstAttribute="top" secondItem="YRF-Nw-4tk" secondAttribute="top" id="85o-0T-cPy"/>
+                            <constraint firstItem="gui-7v-JiB" firstAttribute="leading" secondItem="YRF-Nw-4tk" secondAttribute="leading" id="L32-eV-911"/>
+                            <constraint firstItem="YRF-Nw-4tk" firstAttribute="bottom" secondItem="gui-7v-JiB" secondAttribute="bottom" id="MDc-oy-otD"/>
+                            <constraint firstItem="YRF-Nw-4tk" firstAttribute="trailing" secondItem="gui-7v-JiB" secondAttribute="trailing" id="NfB-wu-LoS"/>
+                        </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="736"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FK-3p-epk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-158" y="-2074"/>
+            <point key="canvasLocation" x="-159.42028985507247" y="-2074.7282608695655"/>
         </scene>
     </scenes>
     <resources>
@@ -302,9 +341,6 @@
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
