@@ -22,6 +22,10 @@ class TracksViewController: UIViewController {
         // MARK: - Corner radius
         viewOne.layer.cornerRadius = 15
         viewTwo.layer.cornerRadius = 15
+        viewThree.layer.cornerRadius = 15
+        viewFour.layer.cornerRadius = 15
+        viewFive.layer.cornerRadius = 15
+        viewSix.layer.cornerRadius = 15
         
         // MARK: - Shadow properties
         
@@ -37,6 +41,30 @@ class TracksViewController: UIViewController {
         viewTwo.layer.shadowOpacity = 0.3
         viewTwo.layer.masksToBounds = false
         
+        viewThree.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
+        viewThree.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        viewThree.layer.shadowRadius = 6.0
+        viewThree.layer.shadowOpacity = 0.3
+        viewThree.layer.masksToBounds = false
+        
+        viewFour.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
+        viewFour.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        viewFour.layer.shadowRadius = 6.0
+        viewFour.layer.shadowOpacity = 0.3
+        viewFour.layer.masksToBounds = false
+        
+        viewFive.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
+        viewFive.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        viewFive.layer.shadowRadius = 6.0
+        viewFive.layer.shadowOpacity = 0.3
+        viewFive.layer.masksToBounds = false
+        
+        viewSix.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
+        viewSix.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        viewSix.layer.shadowRadius = 6.0
+        viewSix.layer.shadowOpacity = 0.3
+        viewSix.layer.masksToBounds = false
+        
     }
 
     override func viewDidLoad() {
@@ -46,4 +74,4 @@ class TracksViewController: UIViewController {
         
     }
     
-}   // #50
+}   // #78
