@@ -30,6 +30,7 @@
 		02AF9987255862F7008B500A /* FaqsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF9986255862F7008B500A /* FaqsViewController.swift */; };
 		02AF998A25586315008B500A /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998925586315008B500A /* SponsorsViewController.swift */; };
 		02AF998D2558633D008B500A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998C2558633D008B500A /* SettingsViewController.swift */; };
+		02EB9260255C094A0055BA10 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB925F255C094A0055BA10 /* Mode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		02AF9986255862F7008B500A /* FaqsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqsViewController.swift; sourceTree = "<group>"; };
 		02AF998925586315008B500A /* SponsorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
 		02AF998C2558633D008B500A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		02EB925F255C094A0055BA10 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				02697BEA254A9A440099A960 /* Assets.xcassets */,
 				02697BEC254A9A440099A960 /* LaunchScreen.storyboard */,
 				02697BE7254A9A430099A960 /* Main.storyboard */,
+				02EB925F255C094A0055BA10 /* Mode.swift */,
 				02697BE5254A9A430099A960 /* HomeViewController.swift */,
 				02AF997A2558620B008B500A /* AnnouncementsViewController.swift */,
 				02AF997D25586228008B500A /* TracksViewController.swift */,
@@ -215,6 +218,7 @@
 				02AF9987255862F7008B500A /* FaqsViewController.swift in Sources */,
 				02AF9984255862C6008B500A /* ScheduleViewController.swift in Sources */,
 				02AF998A25586315008B500A /* SponsorsViewController.swift in Sources */,
+				02EB9260255C094A0055BA10 /* Mode.swift in Sources */,
 				02AF997E25586228008B500A /* TracksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

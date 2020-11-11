@@ -343,6 +343,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vKM-w0-S0x">
                                 <rect key="frame" x="345" y="269" width="51" height="31"/>
                                 <color key="onTintColor" red="0.29411764709999999" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="switchMode:" destination="0Sq-VN-gDu" eventType="valueChanged" id="ETi-Bk-Gwg"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dqi-cN-923"/>
@@ -367,6 +370,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="five" id="ser-S9-Q1L"/>
+                    <connections>
+                        <outlet property="modeSwitch" destination="vKM-w0-S0x" id="xNX-Oq-7Li"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1Q-vg-vSP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
