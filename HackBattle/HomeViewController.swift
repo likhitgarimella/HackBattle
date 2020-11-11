@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     @IBOutlet var prizes: UIButton!
     
     // Container Views
-    @IBOutlet var registerView: UIView!
+    @IBOutlet var announcementsView: UIView!
     @IBOutlet var tracksView: UIView!
     @IBOutlet var prizesView: UIView!
     
@@ -46,7 +46,7 @@ class HomeViewController: UIViewController {
         register.setTitleColor(UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0), for: .normal)
         tracks.setTitleColor(UIColor(red: 110/255, green: 120/255, blue: 130/255, alpha: 1.0), for: .normal)
         prizes.setTitleColor(UIColor(red: 110/255, green: 120/255, blue: 130/255, alpha: 1.0), for: .normal)
-        registerView.alpha = 1
+        announcementsView.alpha = 1
         tracksView.alpha = 0
         prizesView.alpha = 0
         
@@ -57,7 +57,7 @@ class HomeViewController: UIViewController {
         register.setTitleColor(UIColor(red: 110/255, green: 120/255, blue: 130/255, alpha: 1.0), for: .normal)
         tracks.setTitleColor(UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0), for: .normal)
         prizes.setTitleColor(UIColor(red: 110/255, green: 120/255, blue: 130/255, alpha: 1.0), for: .normal)
-        registerView.alpha = 0
+        announcementsView.alpha = 0
         tracksView.alpha = 1
         prizesView.alpha = 0
         
@@ -68,7 +68,7 @@ class HomeViewController: UIViewController {
         register.setTitleColor(UIColor(red: 110/255, green: 120/255, blue: 130/255, alpha: 1.0), for: .normal)
         tracks.setTitleColor(UIColor(red: 110/255, green: 120/255, blue: 130/255, alpha: 1.0), for: .normal)
         prizes.setTitleColor(UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0), for: .normal)
-        registerView.alpha = 0
+        announcementsView.alpha = 0
         tracksView.alpha = 0
         prizesView.alpha = 1
         

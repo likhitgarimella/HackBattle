@@ -23,7 +23,7 @@
 		02AF99752557F1D8008B500A /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AF996B2557F1D7008B500A /* Lato-Thin.ttf */; };
 		02AF99762557F1D8008B500A /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AF996C2557F1D8008B500A /* Lato-Black.ttf */; };
 		02AF99772557F1D8008B500A /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AF996D2557F1D8008B500A /* Lato-LightItalic.ttf */; };
-		02AF997B2558620B008B500A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF997A2558620B008B500A /* RegisterViewController.swift */; };
+		02AF997B2558620B008B500A /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF997A2558620B008B500A /* AnnouncementsViewController.swift */; };
 		02AF997E25586228008B500A /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF997D25586228008B500A /* TracksViewController.swift */; };
 		02AF998125586248008B500A /* PrizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998025586248008B500A /* PrizesViewController.swift */; };
 		02AF9984255862C6008B500A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF9983255862C6008B500A /* ScheduleViewController.swift */; };
@@ -51,7 +51,7 @@
 		02AF996B2557F1D7008B500A /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		02AF996C2557F1D8008B500A /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
 		02AF996D2557F1D8008B500A /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
-		02AF997A2558620B008B500A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		02AF997A2558620B008B500A /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
 		02AF997D25586228008B500A /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
 		02AF998025586248008B500A /* PrizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizesViewController.swift; sourceTree = "<group>"; };
 		02AF9983255862C6008B500A /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				02697BEC254A9A440099A960 /* LaunchScreen.storyboard */,
 				02697BE7254A9A430099A960 /* Main.storyboard */,
 				02697BE5254A9A430099A960 /* HomeViewController.swift */,
-				02AF997A2558620B008B500A /* RegisterViewController.swift */,
+				02AF997A2558620B008B500A /* AnnouncementsViewController.swift */,
 				02AF997D25586228008B500A /* TracksViewController.swift */,
 				02AF998025586248008B500A /* PrizesViewController.swift */,
 				02AF9983255862C6008B500A /* ScheduleViewController.swift */,
@@ -211,7 +211,7 @@
 				02697BE2254A9A430099A960 /* AppDelegate.swift in Sources */,
 				02AF998D2558633D008B500A /* SettingsViewController.swift in Sources */,
 				02697BE4254A9A430099A960 /* SceneDelegate.swift in Sources */,
-				02AF997B2558620B008B500A /* RegisterViewController.swift in Sources */,
+				02AF997B2558620B008B500A /* AnnouncementsViewController.swift in Sources */,
 				02AF9987255862F7008B500A /* FaqsViewController.swift in Sources */,
 				02AF9984255862C6008B500A /* ScheduleViewController.swift in Sources */,
 				02AF998A25586315008B500A /* SponsorsViewController.swift in Sources */,
