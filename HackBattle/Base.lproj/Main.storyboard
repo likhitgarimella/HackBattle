@@ -322,12 +322,28 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YG-dn-Qrf">
+                                <rect key="frame" x="20" y="262.33333333333331" width="111" height="44"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewW-2P-JrM">
+                                <rect key="frame" x="20" y="316.33333333333331" width="374" height="50.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed by IEEE Computer Society VIT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2u-Mi-EaZ">
                                 <rect key="frame" x="80.333333333333329" y="638" width="253.33333333333337" height="17"/>
                                 <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
                                 <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vKM-w0-S0x">
+                                <rect key="frame" x="345" y="269" width="51" height="31"/>
+                                <color key="onTintColor" red="0.29411764709999999" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dqi-cN-923"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -335,11 +351,19 @@
                             <constraint firstItem="dqi-cN-923" firstAttribute="trailing" secondItem="KZx-Ur-UOY" secondAttribute="trailing" constant="20" id="6FW-Ie-SjE"/>
                             <constraint firstItem="8ZM-l3-aJ9" firstAttribute="top" secondItem="dqi-cN-923" secondAttribute="top" constant="20" id="CAI-XS-Ucu"/>
                             <constraint firstItem="t2u-Mi-EaZ" firstAttribute="centerX" secondItem="LRH-2x-XvJ" secondAttribute="centerX" id="FbK-7t-pKf"/>
+                            <constraint firstItem="dqi-cN-923" firstAttribute="trailing" secondItem="ewW-2P-JrM" secondAttribute="trailing" constant="20" id="Gps-mi-L4q"/>
+                            <constraint firstItem="dqi-cN-923" firstAttribute="trailing" secondItem="vKM-w0-S0x" secondAttribute="trailing" constant="20" id="QWk-GS-Ixa"/>
                             <constraint firstItem="dqi-cN-923" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8ZM-l3-aJ9" secondAttribute="trailing" symbolic="YES" id="U1Z-Sv-IuI"/>
+                            <constraint firstItem="3YG-dn-Qrf" firstAttribute="leading" secondItem="dqi-cN-923" secondAttribute="leading" constant="20" id="Y17-15-ASe"/>
                             <constraint firstItem="8ZM-l3-aJ9" firstAttribute="leading" secondItem="dqi-cN-923" secondAttribute="leading" constant="20" id="YfP-GP-rAR"/>
+                            <constraint firstItem="dqi-cN-923" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3YG-dn-Qrf" secondAttribute="trailing" symbolic="YES" id="ZIb-LK-lN7"/>
                             <constraint firstItem="dqi-cN-923" firstAttribute="bottom" secondItem="t2u-Mi-EaZ" secondAttribute="bottom" constant="32" id="eg5-fF-Gsu"/>
+                            <constraint firstItem="ewW-2P-JrM" firstAttribute="leading" secondItem="dqi-cN-923" secondAttribute="leading" constant="20" id="j8j-U6-QCS"/>
                             <constraint firstItem="KZx-Ur-UOY" firstAttribute="leading" secondItem="dqi-cN-923" secondAttribute="leading" constant="20" id="nCk-df-SuM"/>
+                            <constraint firstItem="ewW-2P-JrM" firstAttribute="top" secondItem="3YG-dn-Qrf" secondAttribute="bottom" constant="10" id="pPl-1F-Bsp"/>
                             <constraint firstItem="KZx-Ur-UOY" firstAttribute="top" secondItem="8ZM-l3-aJ9" secondAttribute="bottom" constant="10" id="vkc-P7-ZWm"/>
+                            <constraint firstItem="vKM-w0-S0x" firstAttribute="centerY" secondItem="3YG-dn-Qrf" secondAttribute="centerY" id="xgO-VH-dpz"/>
+                            <constraint firstItem="3YG-dn-Qrf" firstAttribute="top" secondItem="KZx-Ur-UOY" secondAttribute="bottom" constant="20" id="zUi-kR-7va"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="five" id="ser-S9-Q1L"/>
