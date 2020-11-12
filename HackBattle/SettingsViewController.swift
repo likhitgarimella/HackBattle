@@ -14,21 +14,19 @@ class SettingsViewController: UIViewController {
     
     let appMode = Mode()
     
+    /*
     func SwitchToDarkMode() {
-        
         view.backgroundColor = .black
         self.tabBarController?.tabBar.backgroundColor = .black
         UITabBar.appearance().barTintColor = .black
-        
     }
     
     func SwitchToLightMode() {
-        
         view.backgroundColor = .white
         self.tabBarController?.tabBar.backgroundColor = .white
         UITabBar.appearance().barTintColor = .white
-        
     }
+    */
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +38,7 @@ class SettingsViewController: UIViewController {
     
     @IBAction func switchMode(_ sender: UISwitch) {
         
+        /*
         if modeSwitch.isOn == true {
             appMode.mode = true
             // print(appMode.mode)
@@ -51,6 +50,7 @@ class SettingsViewController: UIViewController {
             // print(appMode.mode)
             SwitchToLightMode()
         }
+        */
         
     }
     
