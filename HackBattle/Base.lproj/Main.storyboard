@@ -506,8 +506,12 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byT-ji-Kvr">
                                                 <rect key="frame" x="28" y="142.66666666666666" width="148" height="123.99999999999997"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fintech" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqt-wv-zZO">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dbt-9X-aCJ">
+                                                        <rect key="frame" x="80" y="0.0" width="68" height="124"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fintech" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqt-wv-zZO">
                                                         <rect key="frame" x="34.333333333333336" y="47.666666666666686" width="79.333333333333314" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
                                                         <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -515,8 +519,10 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="Fqt-wv-zZO" firstAttribute="centerY" secondItem="byT-ji-Kvr" secondAttribute="centerY" id="HRT-lf-L88"/>
-                                                    <constraint firstItem="Fqt-wv-zZO" firstAttribute="centerX" secondItem="byT-ji-Kvr" secondAttribute="centerX" id="YRO-Vf-oi1"/>
+                                                    <constraint firstItem="dbt-9X-aCJ" firstAttribute="top" secondItem="byT-ji-Kvr" secondAttribute="top" id="6lw-Ye-za6"/>
+                                                    <constraint firstAttribute="trailing" secondItem="dbt-9X-aCJ" secondAttribute="trailing" id="RT8-dO-Ocb"/>
+                                                    <constraint firstItem="dbt-9X-aCJ" firstAttribute="leading" secondItem="byT-ji-Kvr" secondAttribute="leading" constant="80" id="aI6-9a-G8S"/>
+                                                    <constraint firstAttribute="bottom" secondItem="dbt-9X-aCJ" secondAttribute="bottom" id="dhV-IB-vs1"/>
                                                     <constraint firstAttribute="height" constant="124" id="oDy-JH-myk"/>
                                                     <constraint firstAttribute="width" constant="148" id="rFD-kd-6zo"/>
                                                 </constraints>
@@ -524,8 +530,9 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4x-tb-33h">
                                                 <rect key="frame" x="238" y="142.66666666666666" width="148" height="123.99999999999997"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Innovation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emU-RQ-D0F">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Open Innovation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emU-RQ-D0F">
                                                         <rect key="frame" x="16" y="33.333333333333343" width="116" height="57.666666666666657"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
                                                         <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -533,18 +540,16 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="emU-RQ-D0F" firstAttribute="leading" secondItem="A4x-tb-33h" secondAttribute="leading" constant="16" id="GWW-FH-Bu6"/>
-                                                    <constraint firstAttribute="trailing" secondItem="emU-RQ-D0F" secondAttribute="trailing" constant="16" id="J98-J8-713"/>
                                                     <constraint firstAttribute="height" constant="124" id="XQl-7p-K7N"/>
-                                                    <constraint firstItem="emU-RQ-D0F" firstAttribute="centerY" secondItem="A4x-tb-33h" secondAttribute="centerY" id="fMh-sI-k4W"/>
                                                     <constraint firstAttribute="width" constant="148" id="zBW-x0-GaG"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lut-HB-mGz">
                                                 <rect key="frame" x="28" y="290.66666666666669" width="148" height="124"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eL1-XW-itN">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eL1-XW-itN">
                                                         <rect key="frame" x="21" y="47.666666666666629" width="106" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
                                                         <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -552,8 +557,6 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="eL1-XW-itN" firstAttribute="centerX" secondItem="lut-HB-mGz" secondAttribute="centerX" id="IYO-oL-Fuy"/>
-                                                    <constraint firstItem="eL1-XW-itN" firstAttribute="centerY" secondItem="lut-HB-mGz" secondAttribute="centerY" id="R3F-FM-Cav"/>
                                                     <constraint firstAttribute="width" constant="148" id="WbD-li-svq"/>
                                                     <constraint firstAttribute="height" constant="124" id="anb-V1-wa4"/>
                                                 </constraints>
@@ -561,8 +564,9 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zbC-HE-KC3">
                                                 <rect key="frame" x="238" y="290.66666666666669" width="148" height="124"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Healthcare" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otS-zG-HBw">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Healthcare" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otS-zG-HBw">
                                                         <rect key="frame" x="15.666666666666657" y="47.666666666666629" width="117" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
                                                         <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -571,16 +575,15 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="148" id="6PT-2E-G2Q"/>
-                                                    <constraint firstItem="otS-zG-HBw" firstAttribute="centerX" secondItem="zbC-HE-KC3" secondAttribute="centerX" id="WQH-9J-LKF"/>
                                                     <constraint firstAttribute="height" constant="124" id="flc-XY-zVI"/>
-                                                    <constraint firstItem="otS-zG-HBw" firstAttribute="centerY" secondItem="zbC-HE-KC3" secondAttribute="centerY" id="nmc-ji-U5D"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="syq-TD-ACK">
                                                 <rect key="frame" x="28" y="438.66666666666669" width="148" height="124.00000000000006"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IoT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iln-YH-Gno">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IoT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iln-YH-Gno">
                                                         <rect key="frame" x="56.666666666666671" y="47.666666666666629" width="35" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
                                                         <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -588,17 +591,16 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="iln-YH-Gno" firstAttribute="centerY" secondItem="syq-TD-ACK" secondAttribute="centerY" id="7at-4i-YTv"/>
                                                     <constraint firstAttribute="height" constant="124" id="A6m-Nh-Egz"/>
-                                                    <constraint firstItem="iln-YH-Gno" firstAttribute="centerX" secondItem="syq-TD-ACK" secondAttribute="centerX" id="eHt-bC-Ii8"/>
                                                     <constraint firstAttribute="width" constant="148" id="gYF-vb-RER"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5hZ-En-iEH">
                                                 <rect key="frame" x="238" y="438.66666666666669" width="148" height="124.00000000000006"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVx-G8-bVM">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Defense" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVx-G8-bVM">
                                                         <rect key="frame" x="30.333333333333321" y="47.666666666666629" width="87.666666666666686" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
                                                         <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -606,10 +608,8 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="SVx-G8-bVM" firstAttribute="centerX" secondItem="5hZ-En-iEH" secondAttribute="centerX" id="2wP-z9-GRH"/>
                                                     <constraint firstAttribute="width" constant="148" id="hcO-nt-qik"/>
                                                     <constraint firstAttribute="height" constant="124" id="wBU-Fs-ldI"/>
-                                                    <constraint firstItem="SVx-G8-bVM" firstAttribute="centerY" secondItem="5hZ-En-iEH" secondAttribute="centerY" id="zW5-1Y-XZk"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -669,7 +669,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AfM-gn-zIT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="741" y="-2073"/>
+            <point key="canvasLocation" x="740.57971014492762" y="-2073.505434782609"/>
         </scene>
         <!--Announcements View Controller-->
         <scene sceneID="ZoX-Pt-net">
