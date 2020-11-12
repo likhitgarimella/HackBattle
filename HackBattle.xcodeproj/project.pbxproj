@@ -31,6 +31,7 @@
 		02AF998A25586315008B500A /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998925586315008B500A /* SponsorsViewController.swift */; };
 		02AF998D2558633D008B500A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998C2558633D008B500A /* SettingsViewController.swift */; };
 		02EB9260255C094A0055BA10 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB925F255C094A0055BA10 /* Mode.swift */; };
+		29172C227BAAE6C1C3DE5674 /* Pods_HackBattle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A3F6B42C446A617539DACB /* Pods_HackBattle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +60,10 @@
 		02AF9986255862F7008B500A /* FaqsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqsViewController.swift; sourceTree = "<group>"; };
 		02AF998925586315008B500A /* SponsorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
 		02AF998C2558633D008B500A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		02E03A4F065914993F16E0AF /* Pods-HackBattle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBattle.debug.xcconfig"; path = "Target Support Files/Pods-HackBattle/Pods-HackBattle.debug.xcconfig"; sourceTree = "<group>"; };
 		02EB925F255C094A0055BA10 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		97A3F6B42C446A617539DACB /* Pods_HackBattle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackBattle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB7EDAF8EB6116694D8B209 /* Pods-HackBattle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBattle.release.xcconfig"; path = "Target Support Files/Pods-HackBattle/Pods-HackBattle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29172C227BAAE6C1C3DE5674 /* Pods_HackBattle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,8 @@
 				02AF99632557F1C1008B500A /* Fonts */,
 				02697BE0254A9A430099A960 /* HackBattle */,
 				02697BDF254A9A430099A960 /* Products */,
+				9E4181EF7179402BD888A7F8 /* Pods */,
+				68D70D1F0DCC02B27152C33C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +136,24 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		68D70D1F0DCC02B27152C33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97A3F6B42C446A617539DACB /* Pods_HackBattle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4181EF7179402BD888A7F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02E03A4F065914993F16E0AF /* Pods-HackBattle.debug.xcconfig */,
+				EAB7EDAF8EB6116694D8B209 /* Pods-HackBattle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02697BF2254A9A440099A960 /* Build configuration list for PBXNativeTarget "HackBattle" */;
 			buildPhases = (
+				6342B0BD09927B4DB9F421F0 /* [CP] Check Pods Manifest.lock */,
 				02697BDA254A9A430099A960 /* Sources */,
 				02697BDB254A9A430099A960 /* Frameworks */,
 				02697BDC254A9A430099A960 /* Resources */,
+				D17FCB60BDA875B647B93743 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +230,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6342B0BD09927B4DB9F421F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackBattle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D17FCB60BDA875B647B93743 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackBattle/Pods-HackBattle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackBattle/Pods-HackBattle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackBattle/Pods-HackBattle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02697BDA254A9A430099A960 /* Sources */ = {
@@ -363,6 +432,7 @@
 		};
 		02697BF3254A9A440099A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E03A4F065914993F16E0AF /* Pods-HackBattle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -383,6 +453,7 @@
 		};
 		02697BF4254A9A440099A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB7EDAF8EB6116694D8B209 /* Pods-HackBattle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
