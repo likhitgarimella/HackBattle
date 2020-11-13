@@ -48,6 +48,15 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         
     }
     
+    @IBAction func gotStarted(_ sender: Any) {
+        
+        let userDefaults = UserDefaults.standard
+        
+        userDefaults.setValue(true, forKey: "onboardingComplete")
+        userDefaults.synchronize()
+        
+    }
+    
     func onboardingConfigurationItem(_ item: OnboardingContentViewItem, index: Int) {
         
     }
@@ -77,4 +86,4 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         }
     }
     
-}   // #81
+}   // #90

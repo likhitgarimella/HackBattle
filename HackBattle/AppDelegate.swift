@@ -17,6 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        var initialViewController = sb.instantiateViewController(withIdentifier: "Onboarding")
+        
+        ///
+        let userDefaults = UserDefaults.standard
+        if userDefaults.bool(forKey: "onboardingComplete") {
+            initialViewController = sb.instantiateViewController(withIdentifier: "Mainapp")
+        }   ///
+        
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
+        
         /// Status bar color
         // In Info.plist...
         // View controller-based status bar appearance -> NO
@@ -52,4 +66,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
     
-}   // #56
+}   // #70

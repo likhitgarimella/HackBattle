@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jEF-6b-LlV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -19,7 +19,7 @@
         <!--View Controller-->
         <scene sceneID="etm-LK-ggX">
             <objects>
-                <viewController id="jEF-6b-LlV" customClass="ViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jEF-6b-LlV" customClass="ViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1dz-ek-WEk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,6 +32,7 @@
                                 <rect key="frame" x="138" y="600" width="138.33333333333337" height="25"/>
                                 <state key="normal" image="start"/>
                                 <connections>
+                                    <action selector="gotStarted:" destination="jEF-6b-LlV" eventType="touchUpInside" id="B0l-6I-uc1"/>
                                     <segue destination="B4R-7x-hop" kind="show" id="sg8-3u-qvc"/>
                                 </connections>
                             </button>
@@ -79,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-1773.913043478261" y="85.59782608695653"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="Pzs-Hn-3jG">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="B4R-7x-hop" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Mainapp" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="B4R-7x-hop" customClass="MainViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="d4l-6D-K7V"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wCy-Un-HuS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
