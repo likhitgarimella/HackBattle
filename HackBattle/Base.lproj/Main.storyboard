@@ -68,6 +68,7 @@
                     </view>
                     <connections>
                         <outlet property="four" destination="ToH-Ve-H24" id="Dnr-6o-cb2"/>
+                        <outlet property="getStartedButton" destination="dsI-au-5wU" id="35n-IS-cue"/>
                         <outlet property="onboardingView" destination="ZPs-YQ-03N" id="WIH-6t-7XE"/>
                         <outlet property="one" destination="W1C-H3-DXU" id="h4b-xs-qxG"/>
                         <outlet property="three" destination="Wpf-Z5-nbt" id="KNR-FV-yMC"/>

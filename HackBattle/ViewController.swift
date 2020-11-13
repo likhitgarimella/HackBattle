@@ -11,6 +11,7 @@ import paper_onboarding
 class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardingDelegate {
     
     @IBOutlet weak var onboardingView: OnboardingView!
+    @IBOutlet weak var getStartedButton: UIButton!
     
     @IBOutlet var one: UIImageView!
     @IBOutlet var two: UIImageView!
@@ -48,15 +49,32 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     }
     
     func onboardingConfigurationItem(_ item: OnboardingContentViewItem, index: Int) {
-        <#code#>
-    }
-    
-    func onboardingDidTransitonToIndex(_ index: Int) {
-        <#code#>
+        
     }
     
     func onboardingWillTransitonToIndex(_ index: Int) {
-        <#code#>
+        if index == 1 {
+            if self.getStartedButton.alpha == 1 {
+                UIView.animate(withDuration: 0.2, animations: {
+                    self.getStartedButton.alpha = 0
+                })
+            }
+        }
+        if index == 2 {
+            if self.getStartedButton.alpha == 1 {
+                UIView.animate(withDuration: 0.2, animations: {
+                    self.getStartedButton.alpha = 0
+                })
+            }
+        }
     }
     
-}   // #63
+    func onboardingDidTransitonToIndex(_ index: Int) {
+        if index == 3 {
+            UIView.animate(withDuration: 0.2, animations: {
+                self.getStartedButton.alpha = 1
+            })
+        }
+    }
+    
+}   // #81
