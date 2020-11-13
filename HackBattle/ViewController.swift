@@ -8,7 +8,7 @@
 import UIKit
 import paper_onboarding
 
-class ViewController: UIViewController, PaperOnboardingDataSource {
+class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardingDelegate {
     
     @IBOutlet weak var onboardingView: OnboardingView!
     
@@ -21,6 +21,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource {
         super.viewDidLoad()
         
         onboardingView.dataSource = self
+        onboardingView.delegate = self
         
     }
     
@@ -46,4 +47,16 @@ class ViewController: UIViewController, PaperOnboardingDataSource {
         
     }
     
-}   // #50
+    func onboardingConfigurationItem(_ item: OnboardingContentViewItem, index: Int) {
+        <#code#>
+    }
+    
+    func onboardingDidTransitonToIndex(_ index: Int) {
+        <#code#>
+    }
+    
+    func onboardingWillTransitonToIndex(_ index: Int) {
+        <#code#>
+    }
+    
+}   // #63

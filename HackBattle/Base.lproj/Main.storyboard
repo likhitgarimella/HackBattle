@@ -28,6 +28,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="691"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsI-au-5wU">
+                                <rect key="frame" x="138" y="600" width="138.33333333333337" height="25"/>
+                                <state key="normal" image="start"/>
+                                <connections>
+                                    <segue destination="B4R-7x-hop" kind="show" id="sg8-3u-qvc"/>
+                                </connections>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="JMx-gB-xct">
                                 <rect key="frame" x="187" y="699" width="40" height="7"/>
                                 <subviews>
@@ -51,9 +58,11 @@
                         <constraints>
                             <constraint firstItem="ZPs-YQ-03N" firstAttribute="top" secondItem="Cdf-wJ-Y4m" secondAttribute="top" id="0Lb-we-uIQ"/>
                             <constraint firstItem="ZPs-YQ-03N" firstAttribute="trailing" secondItem="Cdf-wJ-Y4m" secondAttribute="trailing" id="6W2-Rl-9em"/>
+                            <constraint firstItem="JMx-gB-xct" firstAttribute="top" secondItem="dsI-au-5wU" secondAttribute="bottom" constant="74" id="Ft9-OS-IQU"/>
                             <constraint firstItem="ZPs-YQ-03N" firstAttribute="leading" secondItem="Cdf-wJ-Y4m" secondAttribute="leading" id="XC4-lH-JY9"/>
                             <constraint firstItem="Cdf-wJ-Y4m" firstAttribute="bottom" secondItem="JMx-gB-xct" secondAttribute="bottom" constant="30" id="cfV-cW-kMp"/>
                             <constraint firstItem="JMx-gB-xct" firstAttribute="top" secondItem="ZPs-YQ-03N" secondAttribute="bottom" constant="8" id="fWi-Gm-XQa"/>
+                            <constraint firstItem="dsI-au-5wU" firstAttribute="centerX" secondItem="1dz-ek-WEk" secondAttribute="centerX" id="u4K-WJ-xWm"/>
                             <constraint firstItem="JMx-gB-xct" firstAttribute="centerX" secondItem="1dz-ek-WEk" secondAttribute="centerX" id="yYU-LL-AhL"/>
                         </constraints>
                     </view>
@@ -73,6 +82,7 @@
         <scene sceneID="Pzs-Hn-3jG">
             <objects>
                 <tabBarController modalPresentationStyle="fullScreen" id="B4R-7x-hop" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="d4l-6D-K7V"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wCy-Un-HuS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -95,7 +105,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="qbo-SM-WIO" customClass="HomeViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mRt-p8-B8i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAF-Fw-c3x">
@@ -129,21 +139,21 @@
                                 </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtD-Id-mV8">
-                                <rect key="frame" x="0.0" y="70" width="414" height="617"/>
+                                <rect key="frame" x="0.0" y="70" width="414" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <segue destination="Re3-nK-11X" kind="embed" id="7Al-zU-zSw"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gC3-B1-cc2">
-                                <rect key="frame" x="0.0" y="70" width="414" height="617"/>
+                                <rect key="frame" x="0.0" y="70" width="414" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <segue destination="3qh-4m-EvO" kind="embed" id="L6U-bf-GsB"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20G-Ba-3nS">
-                                <rect key="frame" x="0.0" y="70" width="414" height="617"/>
+                                <rect key="frame" x="0.0" y="70" width="414" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <segue destination="iiJ-xK-L7t" kind="embed" id="sPg-MD-0Rk"/>
@@ -193,7 +203,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="VWD-ok-BTk" customClass="ScheduleViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XpH-n4-ugi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCK-fB-j60">
@@ -231,14 +241,14 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="6gm-Wi-pZk" customClass="FaqsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kps-TW-LKR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMg-lO-Ila">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vn-vF-VwG">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="667"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cX0-cl-DNc">
                                                 <rect key="frame" x="20" y="20" width="87" height="44"/>
@@ -295,14 +305,14 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="dNf-oP-PdX" customClass="SponsorsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Qm-wo-F2v">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5h-UA-tau">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydK-47-0FR">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="667"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sponsors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bep-6v-D22">
                                                 <rect key="frame" x="20" y="20" width="148" height="44"/>
@@ -359,14 +369,14 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="0Sq-VN-gDu" customClass="SettingsViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LRH-2x-XvJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="980"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2c-zi-1T7">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="951"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHt-kT-9Oi">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="951"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1M-wi-DEW">
                                                 <rect key="frame" x="20" y="20" width="101" height="44"/>
@@ -834,6 +844,7 @@ Care</string>
         <image name="five" width="23.666666030883789" height="24"/>
         <image name="four" width="24" height="24"/>
         <image name="one" width="25" height="24"/>
+        <image name="start" width="138.33332824707031" height="25"/>
         <image name="three" width="28" height="28"/>
         <image name="track-bg" width="47" height="95"/>
         <image name="two" width="23.666666030883789" height="24"/>
