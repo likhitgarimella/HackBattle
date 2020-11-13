@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,8 @@
 		02AF998A25586315008B500A /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998925586315008B500A /* SponsorsViewController.swift */; };
 		02AF998D2558633D008B500A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF998C2558633D008B500A /* SettingsViewController.swift */; };
 		02EB9260255C094A0055BA10 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB925F255C094A0055BA10 /* Mode.swift */; };
+		02EB9268255DC3160055BA10 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB9267255DC3160055BA10 /* OnboardingView.swift */; };
+		02EB926B255DC4980055BA10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB926A255DC4980055BA10 /* ViewController.swift */; };
 		29172C227BAAE6C1C3DE5674 /* Pods_HackBattle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A3F6B42C446A617539DACB /* Pods_HackBattle.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		02AF998C2558633D008B500A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		02E03A4F065914993F16E0AF /* Pods-HackBattle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBattle.debug.xcconfig"; path = "Target Support Files/Pods-HackBattle/Pods-HackBattle.debug.xcconfig"; sourceTree = "<group>"; };
 		02EB925F255C094A0055BA10 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		02EB9267255DC3160055BA10 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		02EB926A255DC4980055BA10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97A3F6B42C446A617539DACB /* Pods_HackBattle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackBattle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB7EDAF8EB6116694D8B209 /* Pods-HackBattle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackBattle.release.xcconfig"; path = "Target Support Files/Pods-HackBattle/Pods-HackBattle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +110,8 @@
 				02697BEC254A9A440099A960 /* LaunchScreen.storyboard */,
 				02697BE7254A9A430099A960 /* Main.storyboard */,
 				02EB925F255C094A0055BA10 /* Mode.swift */,
+				02EB9267255DC3160055BA10 /* OnboardingView.swift */,
+				02EB926A255DC4980055BA10 /* ViewController.swift */,
 				02697BE5254A9A430099A960 /* HomeViewController.swift */,
 				02AF997A2558620B008B500A /* AnnouncementsViewController.swift */,
 				02AF997D25586228008B500A /* TracksViewController.swift */,
@@ -150,7 +156,6 @@
 				02E03A4F065914993F16E0AF /* Pods-HackBattle.debug.xcconfig */,
 				EAB7EDAF8EB6116694D8B209 /* Pods-HackBattle.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -286,7 +291,9 @@
 				02AF997B2558620B008B500A /* AnnouncementsViewController.swift in Sources */,
 				02AF9987255862F7008B500A /* FaqsViewController.swift in Sources */,
 				02AF9984255862C6008B500A /* ScheduleViewController.swift in Sources */,
+				02EB926B255DC4980055BA10 /* ViewController.swift in Sources */,
 				02AF998A25586315008B500A /* SponsorsViewController.swift in Sources */,
+				02EB9268255DC3160055BA10 /* OnboardingView.swift in Sources */,
 				02EB9260255C094A0055BA10 /* Mode.swift in Sources */,
 				02AF997E25586228008B500A /* TracksViewController.swift in Sources */,
 			);
