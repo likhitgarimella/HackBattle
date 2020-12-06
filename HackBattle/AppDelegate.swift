@@ -28,8 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             initialViewController = sb.instantiateViewController(withIdentifier: "Mainapp")
         }   ///
         
-        window?.rootViewController = initialViewController
-        window?.makeKeyAndVisible()
+        self.window?.rootViewController = initialViewController
+        self.window?.makeKeyAndVisible()
         
         /// Status bar color
         // In Info.plist...
