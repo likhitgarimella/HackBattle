@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>857157688360-5cjjepp00s6jgsl2r6uj7857es4vj80e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.857157688360-5cjjepp00s6jgsl2r6uj7857es4vj80e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBzfKbH48DrHNbyNFv-46Av8GZGOMaLDVM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>857157688360</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.likhitgarimella.HackBattle</string>
+	<key>PROJECT_ID</key>
+	<string>hackbattle-likhit-garimella</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hackbattle-likhit-garimella.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:857157688360:ios:cf3ea5330b7c345f47291d</string>
+</dict>
+</plist>

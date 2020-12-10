@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025E4D0B25824CCC008E3E97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 025E4D0A25824CCC008E3E97 /* GoogleService-Info.plist */; };
 		02697BE2254A9A430099A960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02697BE1254A9A430099A960 /* AppDelegate.swift */; };
 		02697BE4254A9A430099A960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02697BE3254A9A430099A960 /* SceneDelegate.swift */; };
 		02697BE6254A9A430099A960 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02697BE5254A9A430099A960 /* HomeViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025E4D0A25824CCC008E3E97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02697BDE254A9A430099A960 /* HackBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02697BE1254A9A430099A960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02697BE3254A9A430099A960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				02AF998925586315008B500A /* SponsorsViewController.swift */,
 				02AF998C2558633D008B500A /* SettingsViewController.swift */,
 				02697BEF254A9A440099A960 /* Info.plist */,
+				025E4D0A25824CCC008E3E97 /* GoogleService-Info.plist */,
 			);
 			path = HackBattle;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02697BEE254A9A440099A960 /* LaunchScreen.storyboard in Resources */,
+				025E4D0B25824CCC008E3E97 /* GoogleService-Info.plist in Resources */,
 				02AF99712557F1D8008B500A /* Lato-ThinItalic.ttf in Resources */,
 				02AF996F2557F1D8008B500A /* Lato-Bold.ttf in Resources */,
 				02AF99732557F1D8008B500A /* Lato-BoldItalic.ttf in Resources */,
