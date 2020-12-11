@@ -13,10 +13,10 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     @IBOutlet weak var onboardingView: OnboardingView!
     @IBOutlet weak var getStartedButton: UIButton!
     
-    @IBOutlet var one: UIImageView!
-    @IBOutlet var two: UIImageView!
-    @IBOutlet var three: UIImageView!
-    @IBOutlet var four: UIImageView!
+    @IBOutlet var one: UIView!
+    @IBOutlet var two: UIView!
+    @IBOutlet var three: UIView!
+    @IBOutlet var four: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +62,32 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     }
     
     func onboardingWillTransitonToIndex(_ index: Int) {
+        
+        if index == 0 {
+            one.backgroundColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0)
+            two.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            three.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            four.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+        }
+        if index == 1 {
+            two.backgroundColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0)
+            one.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            three.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            four.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+        }
+        if index == 2 {
+            three.backgroundColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0)
+            one.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            two.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            four.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+        }
+        if index == 3 {
+            four.backgroundColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0)
+            one.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            two.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+            three.backgroundColor = UIColor(red: 196/255, green: 196/255, blue: 196/255, alpha: 1.0)
+        }
+        
         if index == 1 {
             if self.getStartedButton.alpha == 1 {
                 UIView.animate(withDuration: 0.2, animations: {
@@ -69,6 +95,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
                 })
             }
         }
+        
         if index == 2 {
             if self.getStartedButton.alpha == 1 {
                 UIView.animate(withDuration: 0.2, animations: {
@@ -76,14 +103,17 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
                 })
             }
         }
+        
     }
     
     func onboardingDidTransitonToIndex(_ index: Int) {
+        
         if index == 3 {
             UIView.animate(withDuration: 0.2, animations: {
                 self.getStartedButton.alpha = 1
             })
         }
+        
     }
     
-}   // #90
+}   // #120
