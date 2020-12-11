@@ -23,4 +23,3 @@
 
 FOUNDATION_EXPORT double nanopbVersionNumber;
 FOUNDATION_EXPORT const unsigned char nanopbVersionString[];
-
