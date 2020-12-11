@@ -33,11 +33,27 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /// present onboarding screen for the first time
+        showOnboardingIfNeeded()
+        
         // remove title for left bar button item
         navigationController?.navigationBar.topItem?.title = ""
         
         // hideKeyboardWhenTappedAround()
         Default()
+        
+    }
+    
+    /// Onboarding setup
+    fileprivate func showOnboardingIfNeeded() {
+        
+        guard let onboardingController = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as? ViewController else { return }
+        
+        if !onboardingController.alreadyShown() {
+            DispatchQueue.main.async {
+                self.present(onboardingController, animated: true)
+            }
+        }
         
     }
     
@@ -74,4 +90,4 @@ class HomeViewController: UIViewController {
         
     }
     
-}   // #78
+}   // #94

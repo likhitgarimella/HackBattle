@@ -22,21 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        var initialViewController = sb.instantiateViewController(withIdentifier: "Onboarding")
-        
-        ///
-        let userDefaults = UserDefaults.standard
-        if userDefaults.bool(forKey: "onboardingComplete") {
-            initialViewController = sb.instantiateViewController(withIdentifier: "Mainapp")
-        }   ///
-        
-        self.window?.rootViewController = initialViewController
-        self.window?.makeKeyAndVisible()
-        
         /// Status bar color
-        // In Info.plist...
-        // View controller-based status bar appearance -> NO
+        /// In Info.plist, View controller-based status bar appearance -> NO
         
         UITabBar.appearance().barTintColor = .white
         /// Dark blue color theme
@@ -69,4 +56,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
     
-}   // #73
+}   // #60

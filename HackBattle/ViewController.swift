@@ -48,13 +48,19 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         
     }
     
+    ///
+    func alreadyShown() -> Bool {
+        return UserDefaults.standard.bool(forKey: "already_shown_onboarding")
+    }
+    
+    ///
+    private func markAsSeen() {
+        UserDefaults.standard.set(true, forKey: "already_shown_onboarding")
+    }
+    
     @IBAction func gotStarted(_ sender: Any) {
-        
-        let userDefaults = UserDefaults.standard
-        
-        userDefaults.setValue(true, forKey: "onboardingComplete")
-        userDefaults.synchronize()
-        
+        markAsSeen()
+        dismiss(animated: true)
     }
     
     func onboardingConfigurationItem(_ item: OnboardingContentViewItem, index: Int) {
@@ -116,4 +122,4 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         
     }
     
-}   // #120
+}   // #126
