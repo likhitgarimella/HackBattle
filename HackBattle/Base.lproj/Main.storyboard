@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jEF-6b-LlV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jEF-6b-LlV">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17502"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -393,33 +393,14 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIh-yD-vsj">
-                                                <rect key="frame" x="20" y="262.33333333333331" width="111" height="44"/>
-                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
-                                                <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zAO-ab-dOk">
-                                                <rect key="frame" x="345" y="269" width="51" height="31"/>
-                                                <color key="onTintColor" red="0.29411764709999999" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="switchMode:" destination="0Sq-VN-gDu" eventType="valueChanged" id="C6e-3I-yed"/>
-                                                </connections>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79u-1E-t1s">
-                                                <rect key="frame" x="20" y="316.33333333333331" width="333.33333333333331" height="17"/>
-                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6Y-88-p1P">
-                                                <rect key="frame" x="20" y="353.33333333333331" width="184" height="44"/>
+                                                <rect key="frame" x="20" y="262.33333333333331" width="184" height="44"/>
                                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
                                                 <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yot-FT-ovd">
-                                                <rect key="frame" x="20" y="407.33333333333331" width="333.33333333333331" height="17"/>
+                                                <rect key="frame" x="20" y="316.33333333333331" width="333.33333333333331" height="17"/>
                                                 <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -428,23 +409,16 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="n7h-nr-iCC" secondAttribute="trailing" constant="20" id="21P-ay-I91"/>
-                                            <constraint firstAttribute="trailing" secondItem="zAO-ab-dOk" secondAttribute="trailing" constant="20" id="2Iz-77-VSy"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="T6Y-88-p1P" secondAttribute="trailing" constant="20" symbolic="YES" id="7Wt-Rf-PTK"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eIh-yD-vsj" secondAttribute="trailing" constant="20" symbolic="YES" id="ENt-aT-0Iu"/>
                                             <constraint firstItem="q1M-wi-DEW" firstAttribute="top" secondItem="PHt-kT-9Oi" secondAttribute="top" constant="20" id="I5b-1g-qTw"/>
-                                            <constraint firstItem="zAO-ab-dOk" firstAttribute="centerY" secondItem="eIh-yD-vsj" secondAttribute="centerY" id="KsM-MT-bJx"/>
-                                            <constraint firstItem="79u-1E-t1s" firstAttribute="top" secondItem="eIh-yD-vsj" secondAttribute="bottom" constant="10" id="VMw-Cr-FZO"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="q1M-wi-DEW" secondAttribute="trailing" constant="20" symbolic="YES" id="Yep-qg-3S8"/>
-                                            <constraint firstItem="T6Y-88-p1P" firstAttribute="top" secondItem="79u-1E-t1s" secondAttribute="bottom" constant="20" id="ZYR-F2-GpQ"/>
                                             <constraint firstItem="Yot-FT-ovd" firstAttribute="leading" secondItem="PHt-kT-9Oi" secondAttribute="leading" constant="20" id="dLJ-8o-24L"/>
+                                            <constraint firstItem="T6Y-88-p1P" firstAttribute="top" secondItem="n7h-nr-iCC" secondAttribute="bottom" constant="20" id="eWt-dN-rL8"/>
                                             <constraint firstItem="q1M-wi-DEW" firstAttribute="leading" secondItem="PHt-kT-9Oi" secondAttribute="leading" constant="20" id="eeU-9Z-SNc"/>
                                             <constraint firstItem="T6Y-88-p1P" firstAttribute="leading" secondItem="PHt-kT-9Oi" secondAttribute="leading" constant="20" id="gBe-kl-bvx"/>
                                             <constraint firstItem="n7h-nr-iCC" firstAttribute="top" secondItem="q1M-wi-DEW" secondAttribute="bottom" constant="10" id="hUQ-sX-0Lr"/>
                                             <constraint firstItem="n7h-nr-iCC" firstAttribute="leading" secondItem="PHt-kT-9Oi" secondAttribute="leading" constant="20" id="oL7-0y-Mvy"/>
-                                            <constraint firstItem="eIh-yD-vsj" firstAttribute="leading" secondItem="PHt-kT-9Oi" secondAttribute="leading" constant="20" id="qL1-dc-Hnd"/>
-                                            <constraint firstItem="eIh-yD-vsj" firstAttribute="top" secondItem="n7h-nr-iCC" secondAttribute="bottom" constant="20" id="qLf-jB-HMP"/>
                                             <constraint firstItem="Yot-FT-ovd" firstAttribute="top" secondItem="T6Y-88-p1P" secondAttribute="bottom" constant="10" id="yec-fz-fui"/>
-                                            <constraint firstItem="79u-1E-t1s" firstAttribute="leading" secondItem="PHt-kT-9Oi" secondAttribute="leading" constant="20" id="zBc-hu-chH"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -470,9 +444,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="five" id="ser-S9-Q1L"/>
                     <size key="freeformSize" width="414" height="1000"/>
-                    <connections>
-                        <outlet property="modeSwitch" destination="zAO-ab-dOk" id="1eC-gf-BFW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1Q-vg-vSP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
