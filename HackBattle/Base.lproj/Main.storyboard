@@ -122,7 +122,7 @@
         <!--Main View Controller-->
         <scene sceneID="Pzs-Hn-3jG">
             <objects>
-                <tabBarController storyboardIdentifier="Mainapp" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="B4R-7x-hop" customClass="MainViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="B4R-7x-hop" customClass="MainViewController" customModule="HackBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="d4l-6D-K7V"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wCy-Un-HuS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
