@@ -24,6 +24,8 @@ class FaqTableViewCell: UITableViewCell {
         faqView.layer.shadowOpacity = 0.28
         faqView.layer.masksToBounds = false
         
+        answerLabel.removeFromSuperview()
+        
     }
     
     override func awakeFromNib() {
@@ -40,4 +42,10 @@ class FaqTableViewCell: UITableViewCell {
         
     }
     
-}   // #44
+    @IBAction func expand(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+}   // #52
