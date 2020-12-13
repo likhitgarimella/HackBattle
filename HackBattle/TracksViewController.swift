@@ -31,38 +31,38 @@ class TracksViewController: UIViewController {
         
         viewOne.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
         viewOne.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        viewOne.layer.shadowRadius = 6.0
-        viewOne.layer.shadowOpacity = 0.3
+        viewOne.layer.shadowRadius = 4.0
+        viewOne.layer.shadowOpacity = 0.28
         viewOne.layer.masksToBounds = false
         
         viewTwo.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
         viewTwo.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        viewTwo.layer.shadowRadius = 6.0
-        viewTwo.layer.shadowOpacity = 0.3
+        viewTwo.layer.shadowRadius = 4.0
+        viewTwo.layer.shadowOpacity = 0.28
         viewTwo.layer.masksToBounds = false
         
         viewThree.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
         viewThree.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        viewThree.layer.shadowRadius = 6.0
-        viewThree.layer.shadowOpacity = 0.3
+        viewThree.layer.shadowRadius = 4.0
+        viewThree.layer.shadowOpacity = 0.28
         viewThree.layer.masksToBounds = false
         
         viewFour.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
         viewFour.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        viewFour.layer.shadowRadius = 6.0
-        viewFour.layer.shadowOpacity = 0.3
+        viewFour.layer.shadowRadius = 4.0
+        viewFour.layer.shadowOpacity = 0.28
         viewFour.layer.masksToBounds = false
         
         viewFive.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
         viewFive.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        viewFive.layer.shadowRadius = 6.0
-        viewFive.layer.shadowOpacity = 0.3
+        viewFive.layer.shadowRadius = 4.0
+        viewFive.layer.shadowOpacity = 0.28
         viewFive.layer.masksToBounds = false
         
         viewSix.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
         viewSix.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        viewSix.layer.shadowRadius = 6.0
-        viewSix.layer.shadowOpacity = 0.3
+        viewSix.layer.shadowRadius = 4.0
+        viewSix.layer.shadowOpacity = 0.28
         viewSix.layer.masksToBounds = false
         
     }
