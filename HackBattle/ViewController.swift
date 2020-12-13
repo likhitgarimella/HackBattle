@@ -38,7 +38,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         let titleFont = UIFont(name: "Lato-Bold", size: 34)!
         let descriptionFont = UIFont(name: "Lato-Regular", size: 14)!
         
-        return [OnboardingItemInfo(informationImage: UIImage(named: "onboardOne")!, title: "About HackBattle", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", color: backgroundColor, titleColor: titleColor, descriptionColor: UIColor.darkGray, titleFont: titleFont, descriptionFont: descriptionFont),
+        return [OnboardingItemInfo(informationImage: UIImage(named: "onboardOne")!, title: "About HackBattle", description: "HackBattle’20 is a 36 hour Hack-a-Thon where Tomorrow's Developers are pitted against each other in a series of tracks that test their skills in the fields of Design, Web and Mobile App Development, Machine Learning, Blockchain and so much more. Apart from this, we also have keynote sessions by speakers from reputed companies, expert guidance by mentors and several fun activities, with chances to win exciting prizes!", color: backgroundColor, titleColor: titleColor, descriptionColor: UIColor.darkGray, titleFont: titleFont, descriptionFont: descriptionFont),
         
                 OnboardingItemInfo(informationImage: UIImage(named: "onboardTwo")!, title: "Hackathon Schedule", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", color: backgroundColor, titleColor: titleColor, descriptionColor: UIColor.darkGray, titleFont: titleFont, descriptionFont: descriptionFont),
         
