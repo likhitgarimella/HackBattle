@@ -14,6 +14,7 @@
 		02697BE9254A9A430099A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02697BE7254A9A430099A960 /* Main.storyboard */; };
 		02697BEB254A9A440099A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02697BEA254A9A440099A960 /* Assets.xcassets */; };
 		02697BEE254A9A440099A960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02697BEC254A9A440099A960 /* LaunchScreen.storyboard */; };
+		02A3336125864DFB00FC6EF9 /* FaqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3336025864DFB00FC6EF9 /* FaqTableViewCell.swift */; };
 		02AF996E2557F1D8008B500A /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AF99642557F1D7008B500A /* Lato-Light.ttf */; };
 		02AF996F2557F1D8008B500A /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AF99652557F1D7008B500A /* Lato-Bold.ttf */; };
 		02AF99702557F1D8008B500A /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02AF99662557F1D7008B500A /* Lato-BlackItalic.ttf */; };
@@ -47,6 +48,7 @@
 		02697BEA254A9A440099A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02697BED254A9A440099A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02697BEF254A9A440099A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A3336025864DFB00FC6EF9 /* FaqTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqTableViewCell.swift; sourceTree = "<group>"; };
 		02AF99642557F1D7008B500A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		02AF99652557F1D7008B500A /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		02AF99662557F1D7008B500A /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				02AF998025586248008B500A /* PrizesViewController.swift */,
 				02AF9983255862C6008B500A /* ScheduleViewController.swift */,
 				02AF9986255862F7008B500A /* FaqsViewController.swift */,
+				02A3336025864DFB00FC6EF9 /* FaqTableViewCell.swift */,
 				02AF998925586315008B500A /* SponsorsViewController.swift */,
 				02AF998C2558633D008B500A /* SettingsViewController.swift */,
 				02697BEF254A9A440099A960 /* Info.plist */,
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A3336125864DFB00FC6EF9 /* FaqTableViewCell.swift in Sources */,
 				02697BE6254A9A430099A960 /* HomeViewController.swift in Sources */,
 				02AF998125586248008B500A /* PrizesViewController.swift in Sources */,
 				02697BE2254A9A430099A960 /* AppDelegate.swift in Sources */,

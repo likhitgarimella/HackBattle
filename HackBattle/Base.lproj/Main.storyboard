@@ -303,57 +303,65 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="1Ux-nD-ISn">
-                                                <rect key="frame" x="20" y="154" width="32" height="32"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="32" id="Bb5-Jd-wsN"/>
-                                                    <constraint firstAttribute="width" constant="32" id="K4z-Lh-plk"/>
-                                                </constraints>
-                                            </imageView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zpl-XV-GTZ">
-                                                <rect key="frame" x="72" y="154" width="322" height="150"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is a hackathon?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAa-wr-BK1">
-                                                        <rect key="frame" x="10" y="10" width="148" height="12"/>
-                                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
-                                                        <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPh-dP-Ulc">
-                                                        <rect key="frame" x="10" y="32" width="274" height="108"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="108" id="QLG-pb-S5M"/>
-                                                            <constraint firstAttribute="width" constant="274" id="tNa-EL-p29"/>
-                                                        </constraints>
-                                                        <string key="text">A hackathon is a programming competition in which competitors use technology to build innovative projects within the given time frame. There will be opportunities to win cool prizes, learn from our key-note speakers, and network with our sponsors.</string>
-                                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
-                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KaV-4k-SBE">
+                                                <rect key="frame" x="0.0" y="144" width="414" height="543"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstItem="sAa-wr-BK1" firstAttribute="top" secondItem="zpl-XV-GTZ" secondAttribute="top" constant="10" id="9SU-Bc-pRW"/>
-                                                    <constraint firstAttribute="height" constant="150" id="O8y-Vp-O6K"/>
-                                                    <constraint firstItem="xPh-dP-Ulc" firstAttribute="leading" secondItem="zpl-XV-GTZ" secondAttribute="leading" constant="10" id="ZlP-4q-Ycb"/>
-                                                    <constraint firstItem="sAa-wr-BK1" firstAttribute="leading" secondItem="zpl-XV-GTZ" secondAttribute="leading" constant="10" id="eus-FT-5NC"/>
-                                                    <constraint firstItem="xPh-dP-Ulc" firstAttribute="top" secondItem="sAa-wr-BK1" secondAttribute="bottom" constant="10" id="xjZ-8j-siE"/>
-                                                </constraints>
-                                            </view>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FaqTableViewCell" rowHeight="100" id="RlO-dR-xVG" customClass="FaqTableViewCell" customModule="HackBattle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RlO-dR-xVG" id="fEP-z6-eeV">
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TSF-u3-ica">
+                                                                    <rect key="frame" x="20" y="10" width="32" height="32"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="32" id="NJn-R9-0gV"/>
+                                                                        <constraint firstAttribute="height" constant="32" id="rIA-bp-JPQ"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7jg-XD-irl">
+                                                                    <rect key="frame" x="62" y="10" width="342" height="80"/>
+                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="7jg-XD-irl" firstAttribute="top" secondItem="fEP-z6-eeV" secondAttribute="top" constant="10" id="2w8-Mn-YEX"/>
+                                                                <constraint firstAttribute="bottom" secondItem="TSF-u3-ica" secondAttribute="bottom" constant="58" id="5Wo-rA-n6Z"/>
+                                                                <constraint firstAttribute="trailing" secondItem="7jg-XD-irl" secondAttribute="trailing" constant="10" id="6iQ-K5-P2s"/>
+                                                                <constraint firstItem="TSF-u3-ica" firstAttribute="leading" secondItem="fEP-z6-eeV" secondAttribute="leading" constant="20" id="CwS-aL-p1n"/>
+                                                                <constraint firstItem="TSF-u3-ica" firstAttribute="top" secondItem="fEP-z6-eeV" secondAttribute="top" constant="10" id="PrI-pH-jQE"/>
+                                                                <constraint firstItem="7jg-XD-irl" firstAttribute="leading" secondItem="TSF-u3-ica" secondAttribute="trailing" constant="10" id="qpH-J9-aqV"/>
+                                                                <constraint firstAttribute="bottom" secondItem="7jg-XD-irl" secondAttribute="bottom" constant="10" id="rnr-gF-5K7"/>
+                                                            </constraints>
+                                                        </tableViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="faqView" destination="7jg-XD-irl" id="d4c-Jv-umP"/>
+                                                            <outlet property="serialNumber" destination="TSF-u3-ica" id="NZf-eU-zWE"/>
+                                                        </connections>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="6gm-Wi-pZk" id="LvE-4b-OZc"/>
+                                                    <outlet property="delegate" destination="6gm-Wi-pZk" id="XNu-ZW-Jyp"/>
+                                                </connections>
+                                            </tableView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="1Ux-nD-ISn" firstAttribute="leading" secondItem="7vn-vF-VwG" secondAttribute="leading" constant="20" id="H1a-hO-cTH"/>
+                                            <constraint firstItem="KaV-4k-SBE" firstAttribute="top" secondItem="cA1-MQ-645" secondAttribute="bottom" constant="10" id="IZa-Dj-4rt"/>
                                             <constraint firstItem="cA1-MQ-645" firstAttribute="leading" secondItem="7vn-vF-VwG" secondAttribute="leading" constant="20" id="LcD-Bs-c8L"/>
-                                            <constraint firstItem="1Ux-nD-ISn" firstAttribute="top" secondItem="cA1-MQ-645" secondAttribute="bottom" constant="20" id="LpN-eO-4l7"/>
-                                            <constraint firstAttribute="trailing" secondItem="zpl-XV-GTZ" secondAttribute="trailing" constant="20" id="VR5-5U-726"/>
                                             <constraint firstItem="cA1-MQ-645" firstAttribute="top" secondItem="cX0-cl-DNc" secondAttribute="bottom" constant="20" id="VaD-Ev-3oR"/>
+                                            <constraint firstAttribute="bottom" secondItem="KaV-4k-SBE" secondAttribute="bottom" id="XeQ-tu-F7r"/>
+                                            <constraint firstItem="KaV-4k-SBE" firstAttribute="leading" secondItem="7vn-vF-VwG" secondAttribute="leading" id="c6l-Cd-cAt"/>
                                             <constraint firstItem="cX0-cl-DNc" firstAttribute="leading" secondItem="7vn-vF-VwG" secondAttribute="leading" constant="20" id="hym-aL-896"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cX0-cl-DNc" secondAttribute="trailing" constant="20" symbolic="YES" id="jXu-jn-5Os"/>
-                                            <constraint firstItem="zpl-XV-GTZ" firstAttribute="top" secondItem="1Ux-nD-ISn" secondAttribute="top" id="kDz-12-lvB"/>
                                             <constraint firstItem="cX0-cl-DNc" firstAttribute="top" secondItem="7vn-vF-VwG" secondAttribute="top" constant="20" id="kdk-o2-GZI"/>
-                                            <constraint firstItem="zpl-XV-GTZ" firstAttribute="leading" secondItem="1Ux-nD-ISn" secondAttribute="trailing" constant="20" id="qzZ-5Z-tou"/>
-                                            <constraint firstItem="sAa-wr-BK1" firstAttribute="centerY" secondItem="1Ux-nD-ISn" secondAttribute="centerY" id="ra5-Mp-WaB"/>
+                                            <constraint firstAttribute="trailing" secondItem="KaV-4k-SBE" secondAttribute="trailing" id="lID-iw-0vY"/>
                                             <constraint firstAttribute="trailing" secondItem="cA1-MQ-645" secondAttribute="trailing" constant="20" id="tNC-UZ-xKL"/>
                                         </constraints>
                                     </view>
@@ -379,6 +387,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="three" id="KtP-qj-72y"/>
+                    <connections>
+                        <outlet property="faqTableView" destination="KaV-4k-SBE" id="gBV-wz-b6p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfq-cD-ybX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -895,7 +906,6 @@ Care</string>
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="32" height="32"/>
         <image name="five" width="23.666666030883789" height="24"/>
         <image name="four" width="24" height="24"/>
         <image name="one" width="25" height="24"/>
