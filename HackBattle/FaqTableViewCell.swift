@@ -12,11 +12,24 @@ class FaqTableViewCell: UITableViewCell {
     // Outlets
     @IBOutlet var serialNumber: UIImageView!
     @IBOutlet var faqView: UIView!
+    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet var answerLabel: UILabel!
+    
+    func Properties() {
+        
+        faqView.layer.cornerRadius = 8
+        faqView.layer.shadowColor = UIColor(red: 15/255, green: 60/255, blue: 122/255, alpha: 1.0).cgColor
+        faqView.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        faqView.layer.shadowRadius = 4.0
+        faqView.layer.shadowOpacity = 0.28
+        faqView.layer.masksToBounds = false
+        
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        
+        Properties()
         
     }
     
@@ -27,4 +40,4 @@ class FaqTableViewCell: UITableViewCell {
         
     }
     
-}   // #31
+}   // #44
