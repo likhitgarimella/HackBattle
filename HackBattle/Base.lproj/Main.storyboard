@@ -292,29 +292,29 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cX0-cl-DNc">
-                                                <rect key="frame" x="20" y="20.000000000000004" width="87" height="43.333333333333343"/>
+                                                <rect key="frame" x="20" y="20" width="87" height="42"/>
                                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="36"/>
                                                 <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA1-MQ-645">
-                                                <rect key="frame" x="20" y="83.333333333333329" width="374" height="50.666666666666671"/>
+                                                <rect key="frame" x="20" y="82" width="374" height="49"/>
                                                 <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KaV-4k-SBE">
-                                                <rect key="frame" x="0.0" y="144" width="414" height="543"/>
+                                                <rect key="frame" x="0.0" y="141" width="414" height="546"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FaqTableViewCell" rowHeight="84" id="RlO-dR-xVG" customClass="FaqTableViewCell" customModule="HackBattle" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="28" width="414" height="84"/>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FaqTableViewCell" rowHeight="68" id="RlO-dR-xVG" customClass="FaqTableViewCell" customModule="HackBattle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="28" width="414" height="68"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RlO-dR-xVG" id="fEP-z6-eeV">
-                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TSF-u3-ica">
@@ -325,16 +325,16 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7jg-XD-irl">
-                                                                    <rect key="frame" x="62" y="10" width="332" height="64"/>
+                                                                    <rect key="frame" x="62" y="10" width="332" height="48"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Question" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmW-3U-3UJ">
-                                                                            <rect key="frame" x="8" y="9.9999999999999982" width="286" height="19.333333333333329"/>
+                                                                            <rect key="frame" x="8" y="10.000000000000002" width="286" height="18.666666666666671"/>
                                                                             <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
                                                                             <color key="textColor" red="0.058823529409999999" green="0.23529411759999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3d-eD-eDH">
-                                                                            <rect key="frame" x="8" y="37.333333333333336" width="284" height="17"/>
+                                                                            <rect key="frame" x="8" y="36.666666666666664" width="284" height="16.333333333333336"/>
                                                                             <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
@@ -354,6 +354,7 @@
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstItem="RmW-3U-3UJ" firstAttribute="leading" secondItem="7jg-XD-irl" secondAttribute="leading" constant="8" id="A0w-in-yrp"/>
+                                                                        <constraint firstAttribute="height" constant="48" id="F0E-4k-Knd"/>
                                                                         <constraint firstItem="RmW-3U-3UJ" firstAttribute="top" secondItem="7jg-XD-irl" secondAttribute="top" constant="10" id="Hjh-M3-p68"/>
                                                                         <constraint firstItem="o3d-eD-eDH" firstAttribute="top" secondItem="RmW-3U-3UJ" secondAttribute="bottom" constant="8" id="MWr-Pm-Eg2"/>
                                                                         <constraint firstItem="cqN-HU-cfe" firstAttribute="top" secondItem="7jg-XD-irl" secondAttribute="top" constant="12" id="UFJ-02-AXz"/>
@@ -368,18 +369,19 @@
                                                                 <constraint firstItem="7jg-XD-irl" firstAttribute="top" secondItem="fEP-z6-eeV" secondAttribute="top" constant="10" id="2w8-Mn-YEX"/>
                                                                 <constraint firstAttribute="trailing" secondItem="7jg-XD-irl" secondAttribute="trailing" constant="20" id="6iQ-K5-P2s"/>
                                                                 <constraint firstItem="TSF-u3-ica" firstAttribute="leading" secondItem="fEP-z6-eeV" secondAttribute="leading" constant="20" id="CwS-aL-p1n"/>
+                                                                <constraint firstAttribute="bottom" secondItem="TSF-u3-ica" secondAttribute="bottom" constant="20" id="OIa-5V-u8m"/>
                                                                 <constraint firstItem="TSF-u3-ica" firstAttribute="top" secondItem="fEP-z6-eeV" secondAttribute="top" constant="16" id="PrI-pH-jQE"/>
-                                                                <constraint firstAttribute="bottom" secondItem="TSF-u3-ica" secondAttribute="bottom" constant="36" id="Tlm-SO-Cch"/>
                                                                 <constraint firstItem="7jg-XD-irl" firstAttribute="leading" secondItem="TSF-u3-ica" secondAttribute="trailing" constant="10" id="qpH-J9-aqV"/>
-                                                                <constraint firstAttribute="bottom" secondItem="7jg-XD-irl" secondAttribute="bottom" constant="10" id="rnr-gF-5K7"/>
                                                             </constraints>
                                                         </tableViewCellContentView>
                                                         <connections>
                                                             <outlet property="answerLabel" destination="o3d-eD-eDH" id="MxO-jy-IUn"/>
                                                             <outlet property="faqView" destination="7jg-XD-irl" id="d4c-Jv-umP"/>
+                                                            <outlet property="plusOutlet" destination="cqN-HU-cfe" id="P8W-hX-Zdc"/>
                                                             <outlet property="questionLabel" destination="RmW-3U-3UJ" id="Ft1-s1-t3N"/>
                                                             <outlet property="serialNumber" destination="TSF-u3-ica" id="NZf-eU-zWE"/>
-                                                            <outlet property="spaceConstraint" destination="Tlm-SO-Cch" id="HYP-kY-oCi"/>
+                                                            <outlet property="spaceConstraint" destination="OIa-5V-u8m" id="zlG-Ph-tek"/>
+                                                            <outlet property="viewHeightConstraint" destination="F0E-4k-Knd" id="Nmx-yt-80u"/>
                                                         </connections>
                                                     </tableViewCell>
                                                 </prototypes>

@@ -14,8 +14,10 @@ class FaqTableViewCell: UITableViewCell {
     @IBOutlet var faqView: UIView!
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
+    @IBOutlet var plusOutlet: UIButton!
     
     @IBOutlet weak var spaceConstraint: NSLayoutConstraint!
+    @IBOutlet weak var viewHeightConstraint: NSLayoutConstraint!
     
     func Properties() {
         
@@ -46,9 +48,11 @@ class FaqTableViewCell: UITableViewCell {
     
     @IBAction func expand(_ sender: UIButton) {
         
-        spaceConstraint.constant = 72
+        faqView.layoutIfNeeded()
+        spaceConstraint.constant = 200
+        viewHeightConstraint.constant = 120
         answerLabel.isHidden = false
         
     }
     
-}   // #55
+}   // #59
