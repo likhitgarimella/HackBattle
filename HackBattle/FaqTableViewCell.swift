@@ -15,6 +15,8 @@ class FaqTableViewCell: UITableViewCell {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
+    @IBOutlet weak var spaceConstraint: NSLayoutConstraint!
+    
     func Properties() {
         
         faqView.layer.cornerRadius = 8
@@ -24,7 +26,7 @@ class FaqTableViewCell: UITableViewCell {
         faqView.layer.shadowOpacity = 0.28
         faqView.layer.masksToBounds = false
         
-        answerLabel.removeFromSuperview()
+        answerLabel.isHidden = true
         
     }
     
@@ -44,8 +46,9 @@ class FaqTableViewCell: UITableViewCell {
     
     @IBAction func expand(_ sender: UIButton) {
         
-        
+        spaceConstraint.constant = 72
+        answerLabel.isHidden = false
         
     }
     
-}   // #52
+}   // #55
